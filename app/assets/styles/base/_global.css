@@ -14,7 +14,11 @@ img {
 	height: auto;
 }
 
-a, p strong {
+a {
+  color: $blu-light;
+}
+
+p strong {
 	color: $oj-light;
 }
 
