@@ -1,0 +1,14 @@
+.site-header {
+  width: 100%;
+  padding:  10px 0;
+  position: relative;
+  background-color: $blu-dark;
+
+  &__logo {
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+}

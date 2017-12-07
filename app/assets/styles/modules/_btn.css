@@ -1,0 +1,18 @@
+.btn {
+	background-color: $blu-dark;
+	color: #fff;
+	text-decoration: none;
+	padding:.75rem  1.2rem;
+	width: 100%;
+	display: block;
+	&--orange {
+		background-color: $oj-light;
+	}
+	&--large {
+		padding-left: 1.1rem 1.9rem;
+		@mixin atSmall {
+			font-size: 1.25rem;
+		}
+	}
+
+}
